@@ -19,7 +19,7 @@ img {
 #hack {
   text-align: center;
   letter-spacing: 7px;
-  font-size: 1.5em;
+  font-size: 1em;
 
   padding-bottom: 30px;
 }
@@ -42,7 +42,7 @@ img {
 .qcard .text {
 	background-color: white;
 
-  width: -webkit-calc(65% - 40px);
+  width: -webkit-calc(65% - 60px);
   margin-left: 17.5%;
   margin-bottom: 15px;
   margin-right: 15px;
@@ -64,6 +64,10 @@ img {
 }
 .qcard .text .info {
   color: 4a4b40;
+  width: 100%;
+}
+.qcard .text .info td {
+  width: 33%;
 }
 .go {
   position: absolute;
